@@ -1,0 +1,7 @@
+We need to include the .env(environment file) file to declare the ACCESS_TOKEN_SECRET And the REFRESH_TOKEN_SECRET which contains the secret key which is used for the authorization purpose in the JWT purpose.
+
+ACCESS_TOKEN is used for the short time Authorization
+REFESH_TOKEN is used for the long term or time authorization
+
+they can be use to authorize the users in the various servers so that the usersd can be use it in the diifernt servers which can be owned by the same organization.
+it reduces the users to login frequently and secure the communication between the clients and servers.
